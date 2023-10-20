@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+body{
+    background-color: black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-content: center;
+}
+.Post{
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    flex-direction: column;
+}    
+.Post-logo{
+    font-size: 30px;
+}
+.Header-info{
+    font-size: small;
+}
+.Post-title{
+    display: flex; align-items: center;
+}
+.Full-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.Post-body{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+}
+.Footer-likes{
+    padding: 7px;
+}
+.Footer-comment{
+    padding: 7px;
+}
+
